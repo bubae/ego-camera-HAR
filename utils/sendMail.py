@@ -13,7 +13,7 @@ import os
 smtp_server  = "smtp.gmail.com"
 port = 587
 userid = "widianpear"
-passwd = "power1867"
+passwd = ""
 
 def send_mail(from_user, to_user, cc_users, subject, text, attach):
         COMMASPACE = ", "
