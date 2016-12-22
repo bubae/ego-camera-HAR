@@ -1,0 +1,13 @@
+net: "models/GTEA/motionnet/train.prototxt"
+
+base_lr: 0.00005
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+display: 20
+max_iter: 30000
+momentum: 0.9
+weight_decay: 0.000005
+snapshot: 0
+snapshot_prefix: "motionnet_train_tenimage_backgroundon"
+# solver_mode: GPU
